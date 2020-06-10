@@ -13,7 +13,7 @@ const IndexPage = () => (
       <Row>
         <Col className='mt-3 text-center'>
             <h1 style={{ fontSize: '8vmin', fontWeight: '400', fontFamily: 'Alfa Slab One'}}>From the Root to the Fruit</h1>
-            <p>subtitle placeholder</p>
+            <p className='mt-0'>Portraits of Black Fathers and their Children</p>
         </Col>
       </Row>
       <Row>

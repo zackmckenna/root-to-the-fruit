@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer style={{marginBottom: '0px'}}>
+        <footer>
           <Row>
             <Col className='text-center'>
               Copyright © {new Date().getFullYear()} copyright and footer text

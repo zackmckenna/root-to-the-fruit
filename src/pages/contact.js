@@ -11,7 +11,7 @@ const ContactPage = () => (
     <Container>
       <Row>
         <Col className='text-center'>
-          <h1 style={{ fontFamily: 'Alfa Slab One' }}>Contact</h1>
+          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>Contact</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
         </Col>
       </Row>

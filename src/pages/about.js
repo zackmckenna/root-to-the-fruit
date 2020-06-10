@@ -11,7 +11,7 @@ const AboutPage = () => (
     <Container>
       <Row>
         <Col className='text-center'>
-          <h1 style={{ fontFamily: 'Alfa Slab One' }}>About the project</h1>
+          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>About the project</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
         </Col>
       </Row>
