@@ -12,7 +12,7 @@ const IndexPage = () => (
     <Container>
       <Row>
         <Col className='mt-3 text-center'>
-            <h1 style={{ fontSize: '8vmin', fontFamily: 'Alfa Slab One'}}>From the Root to the Fruit</h1>
+            <h1 style={{ fontSize: '8vmin', fontWeight: '400', fontFamily: 'Alfa Slab One'}}>From the Root to the Fruit</h1>
             <p>subtitle placeholder</p>
         </Col>
       </Row>
@@ -59,7 +59,7 @@ const IndexPage = () => (
         </Col>
       </Row>
       <Row>
-        <Col className='text-center'>
+        <Col className='mb-4 text-center'>
           <div style={{ color: 'white', padding: '20px', backgroundColor: '#1F1300', borderRadius: '4px'}}>
             <h4>embed google calendar event here?</h4>
           </div>
