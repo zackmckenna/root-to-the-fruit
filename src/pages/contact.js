@@ -8,9 +8,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
-    <Container>
+    <Container style={{ maxWidth: '650px', lineHeight: '1.6'}}>
       <Row>
-        <Col className='text-center'>
+        <Col className='mt-3'>
           <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>Contact</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
         </Col>
