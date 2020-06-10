@@ -5,13 +5,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Row, Col } from 'react-bootstrap'
 
-const AboutPage = () => (
+const ContactPage = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="Contact" />
     <Container>
       <Row>
         <Col className='text-center'>
-          <h1 style={{ fontFamily: 'Alfa Slab One' }}>About the project</h1>
+          <h1 style={{ fontFamily: 'Alfa Slab One' }}>Contact</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
         </Col>
       </Row>
@@ -19,4 +19,4 @@ const AboutPage = () => (
   </Layout>
 )
 
-export default AboutPage
+export default ContactPage

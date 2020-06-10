@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Row, Col } from 'react-bootstrap'
 
 import Header from "./header"
 import "./layout.css"
@@ -35,8 +36,11 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, copyright and footer text
-          {` `}
+          <Row>
+            <Col className='text-center'>
+              Copyright © {new Date().getFullYear()} copyright and footer text
+            </Col>
+          </Row>
         </footer>
       </div>
     </>
