@@ -104,7 +104,7 @@ const IndexPage = () => {
         </Row>
         <Row>
           <Col className='mt-4'>
-            <p>This installation has been supported by the People’s Emergency Center, the Barnes Foundation, WorldStage, the Mantua Civic Association, and Nine Hostage Arts</p>
+            <p style={{ fontSize: '.6em'}}>This installation has been supported by the People’s Emergency Center, the Barnes Foundation, WorldStage, the Mantua Civic Association, and Nine Hostage Arts</p>
           </Col>
         </Row>
         {/* <Row>

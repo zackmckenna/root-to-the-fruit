@@ -1,9 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
+import Ken from '../images/Ken_about.jpg'
 
 const AboutPage = () => (
   <Layout>
@@ -11,9 +11,25 @@ const AboutPage = () => (
     <Container style={{ maxWidth: '650px', lineHeight: '1.6'}}>
       <Row>
         <Col className='mt-3'>
-          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>About the project</h1>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>About the Artist</h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Image src={Ken} ></Image>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+        <p>I am a West Philadelphia based documentary and portrait photographer focused on creating and presenting images and stories from the standpoint of Resident Observer, reflecting the local community as a member offering the outside world a view from within. My mission is to produce a documentary portrait of West Philadelphia - a record of our truth, our stories, our histories, our futures. Images that are both evidence and symbol of our existence in this space and time. I do not have the privilege of creating art for art’s sake.  For my community, I am an advocate for our presence, our resistance, our strength, our beauty, our right to thrive and our right to remain a community.
+My most recent bodies of work have focused primarily on the production of visual manifestations and audio histories of Philadelphians as means of documentation for future generations.The intent of the work is to amplify the stories and images of the individual and community to preserve collective memory while encouraging future generations to realize, remember and re-examine the individual and collective image.</p>
+        </Col>
+      </Row>
+      <Row>
+        <Col className='mt-3'>
+          <p>My mission is to produce a documentary portrait of West Philadelphia - a record of our truth, our stories, our histories, our futures. Images that are both evidence and symbol of our existence in this space and time. I do not have the privilege of creating art for art’s sake.  For my community, I am an advocate for our presence, our resistance, our strength, our beauty, our right to thrive and our right to remain a community.
+My most recent bodies of work have focused primarily on the production of visual manifestations and audio histories of Philadelphians as means of documentation for future generations.The intent of the work is to amplify the stories and images of the individual and community to preserve collective memory while encouraging future generations to realize, remember and re-examine the individual and collective image.
+</p>
         </Col>
       </Row>
     </Container>
