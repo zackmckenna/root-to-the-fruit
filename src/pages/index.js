@@ -70,13 +70,6 @@ const IndexPage = () => {
           {/* <Button onClick={() => toggleButton()}>{toggle ? 'v1' : 'v2'}</Button>
           {toggle ? accordion() : null} */}
         <Row>
-          <Col className='mt-4'>
-            <h2>
-              What:
-            </h2>
-          </Col>
-        </Row>
-        <Row>
           <Col>
             <p>In "From the Root to the Fruit: Portraits of Black Fathers and their Children" Ken McFarlane presents an ongoing documentary project that celebrates Black fatherhood while counteracting the false narrative of the absentee Black Father.  Originally presented by Traction Company on 41st Street and Haverford in Mantua and curated by Traction artist Sedakial Gebremedhin, this is a second public phase of this ongoing work.  Ken’s brilliant vision and images will be on display for two nights on the exterior walls of the Barnes Foundation, offering a shining counterpunch to a 400 year old system that has poisoned the image of Black Fatherhood in America.</p>
           </Col>

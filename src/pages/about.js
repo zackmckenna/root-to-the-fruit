@@ -16,13 +16,18 @@ const AboutPage = () => (
     <Container style={{ maxWidth: '650px', lineHeight: '1.6'}}>
       <Row>
         <Col className='mt-3'>
-          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>About the Artist<span className='float-right'><a href='https://twitter.com/365ken'><TwitterIcon round={true} size={'30px'} /></a><a href='https://www.facebook.com/Ken-McFarlane-Photography-432087540877646/'><FacebookIcon round={true} size={'30px'}/></a>
-</span></h1>
+          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>About the Artist</h1>
         </Col>
       </Row>
       <Row>
         <Col>
           <Image src={Ken} ></Image>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <h2>Ken McFarlane<span className='float-right'><a href='https://twitter.com/365ken'><TwitterIcon round={true} size={'30px'} /></a><a href='https://www.facebook.com/Ken-McFarlane-Photography-432087540877646/'><FacebookIcon round={true} size={'30px'}/></a>
+</span></h2>
         </Col>
       </Row>
       <Row>
