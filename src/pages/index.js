@@ -6,6 +6,17 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  LinkedInShareButton,
+  EmailShareButton,
+  FacebookIcon,
+  TwitterIcon,
+  EmailIcon,
+  LinkedinIcon
+} from 'react-share'
+
 const IndexPage = () => {
   const [toggle, setToggle] = useState(true)
 
@@ -102,17 +113,29 @@ const IndexPage = () => {
           </ListGroup>
           </Col>
         </Row>
+        <Row className='mt-2'>
+          <Col>
+          <h2>
+            Share:
+          </h2>
+          </Col>
+        </Row>
+        <Row className='b-2'>
+          <Col className='text-center'>
+            <FacebookShareButton url={'https://epic-edison-27c463.netlify.app/'}><FacebookIcon round={true}/></FacebookShareButton>
+          </Col>
+          <Col>
+            <TwitterShareButton url={'https://epic-edison-27c463.netlify.app/'}><TwitterIcon round={true}/></TwitterShareButton>
+          </Col>
+          <Col>
+            <EmailShareButton url={'https://epic-edison-27c463.netlify.app/'}><EmailIcon round={true}/></EmailShareButton>
+          </Col>
+        </Row>
         <Row>
-          <Col className='mt-4'>
+          <Col className='text-center mt-4'>
             <p style={{ fontSize: '.6em'}}>This installation has been supported by the People’s Emergency Center, the Barnes Foundation, WorldStage, the Mantua Civic Association, and Nine Hostage Arts</p>
           </Col>
         </Row>
-        {/* <Row>
-          <Col>
-            <Image />
-          </Col>
-        </Row> */}
-
       </Container>
     </Layout>
   )
