@@ -11,8 +11,8 @@ const Header = () => (
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Link style={{ padding: '10px', color: 'black'}} to='/'>Home</Link>
-          <Link style={{ padding: '10px', color: 'black'}} to='/contact/'>Contact</Link>
           <Link style={{ padding: '10px', color: 'black'}} to='/about/'>About</Link>
+          <Link style={{ padding: '10px', color: 'black'}} to='/gallery/'>Gallery</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
