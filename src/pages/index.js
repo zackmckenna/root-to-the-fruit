@@ -71,23 +71,10 @@ const IndexPage = () => {
           {toggle ? accordion() : null} */}
         <Row>
           <Col>
-            <p>In "From the Root to the Fruit: Portraits of Black Fathers and their Children" Ken McFarlane presents an ongoing documentary project that celebrates Black fatherhood while counteracting the false narrative of the absentee Black Father.  Originally presented by Traction Company on 41st Street and Haverford in Mantua and curated by Traction artist Sedakial Gebremedhin, this is a second public phase of this ongoing work.  Ken’s brilliant vision and images will be on display for two nights on the exterior walls of the Barnes Foundation, offering a shining counterpunch to a 400 year old system that has poisoned the image of Black Fatherhood in America.</p>
+            <p>In <em>"From the Root to the Fruit: Portraits of Black Fathers and their Children"</em> <a style={{ textDecoration: 'none', color:'#EB7140'}} href="https://www.kenmcfarlanephoto.com/">Ken McFarlane</a> presents an ongoing documentary project that celebrates Black fatherhood while counteracting the false narrative of the absentee Black Father.  Originally presented by <a style={{ textDecoration: 'none', color:'#EB7140'}} href="https://tractioncompany.com/">Traction Company</a> on 41st Street and Haverford in Mantua and curated by Traction artist Sedakial Gebremedhin, this is a second public phase of this ongoing work.  Ken’s brilliant vision and images will be on display for two nights on the exterior walls of the Barnes Foundation, offering a shining counterpunch to a 400 year old system that has poisoned the image of Black Fatherhood in America.</p>
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <h2>
-              Where:
-            </h2>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-          <p>The Benjamin Franklin Parkway, at the Barnes Foundation, on the corner of 20th Street.</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.160945523261!2d-75.17528784905686!3d39.96015417931984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c634b159cf11%3A0x8e918cf2f2411980!2sBenjamin%20Franklin%20Pkwy%2C%20Philadelphia%2C%20PA%2019130!5e0!3m2!1sen!2sus!4v1591896908524!5m2!1sen!2sus" width="600" height="450" frameborder="0" style={{ border: '0px'}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </Col>
-        </Row>
-        <Row>
+        <Row className='mt-2'>
           <Col>
             <h2>
               When:
@@ -104,6 +91,19 @@ const IndexPage = () => {
               Add to calendar
             </Button></ListGroup.Item>
           </ListGroup>
+          </Col>
+        </Row>
+        <Row className='mt-3'>
+          <Col>
+            <h2>
+              Where:
+            </h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+          <p>The Benjamin Franklin Parkway, at the Barnes Foundation, on the corner of 20th Street.</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.160945523261!2d-75.17528784905686!3d39.96015417931984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c634b159cf11%3A0x8e918cf2f2411980!2sBenjamin%20Franklin%20Pkwy%2C%20Philadelphia%2C%20PA%2019130!5e0!3m2!1sen!2sus!4v1591896908524!5m2!1sen!2sus" width="600" height="450" frameborder="0" style={{ border: '0px'}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </Col>
         </Row>
         <Row className='mt-2'>

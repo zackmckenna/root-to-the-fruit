@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer>
           <Row>
-            <Col className='text-center'>
+            <Col style={{ fontSize: '.5em'}} className='text-center'>
               Copyright © {new Date().getFullYear()} copyright and footer text
             </Col>
           </Row>
