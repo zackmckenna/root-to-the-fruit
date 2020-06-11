@@ -120,8 +120,8 @@ const IndexPage = () => {
           </h2>
           </Col>
         </Row>
-        <Row className='b-2'>
-          <Col className='text-center'>
+        <Row className='text-center b-2'>
+          <Col>
             <FacebookShareButton url={'https://epic-edison-27c463.netlify.app/'}><FacebookIcon round={true}/></FacebookShareButton>
           </Col>
           <Col>

@@ -5,13 +5,19 @@ import SEO from "../components/seo"
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import Ken from '../images/Ken_about.jpg'
 
+import {
+  FacebookIcon,
+  TwitterIcon
+} from 'react-share'
+
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <Container style={{ maxWidth: '650px', lineHeight: '1.6'}}>
       <Row>
         <Col className='mt-3'>
-          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>About the Artist</h1>
+          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>About the Artist<span className='float-right'><a href='https://twitter.com/365ken'><TwitterIcon round={true} size={'30px'} /></a><a href='https://www.facebook.com/Ken-McFarlane-Photography-432087540877646/'><FacebookIcon round={true} size={'30px'}/></a>
+</span></h1>
         </Col>
       </Row>
       <Row>
