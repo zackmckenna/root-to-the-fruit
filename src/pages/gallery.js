@@ -13,6 +13,7 @@ import Ken from '../images/gallery/Ken.jpg'
 import Rob from '../images/gallery/Rob.jpg'
 import Ogbonna from '../images/gallery/Ogbonna.jpg'
 import Terrance from '../images/gallery/Terrance.jpg'
+import FatherOnBike from '../images/gallery/FatherOnBike.jpg'
 
 import DamonUncropped from '../images/gallery/Damon_uncrop.jpg'
 import ErikUncropped from '../images/gallery/Erik_uncrop.jpg'
@@ -99,6 +100,16 @@ const mobileGallery = () => {
       </Row>
       <Row className='mt-3'>
         <Col>
+          <Image src={FatherOnBike}></Image>
+        </Col>
+      </Row>
+      <Row>
+        <Col className='my-auto'>
+          <p className='align-middle'>"It doesn't matter how we get there as long as we get there together.</p>
+        </Col>
+      </Row>
+      <Row className='mt-3'>
+        <Col>
           <Image src={Marco}></Image>
         </Col>
       </Row>
@@ -148,6 +159,15 @@ const desktopGallery = () => {
         </Col>
       </Row>
       <Row>
+        <Col className='my-auto'>
+          <p className='align-middle'>"I want my daughter to see nature as a reflection of herself. So as she moves through this world she can better navigate the adversities of this life by recognizing the patterns and what comes next sunrise to sunset, season to season and all the cycles of the moon. That's natural."</p>
+          <footer class="blockquote-footer">Terrance</footer>
+        </Col>
+        <Col>
+          <Image src={Terrance}></Image>
+        </Col>
+      </Row>
+      <Row>
         <Col>
           <Image src={Ken}></Image>
         </Col>
@@ -176,19 +196,18 @@ const desktopGallery = () => {
       </Row>
       <Row>
         <Col className='my-auto'>
-          <p className='align-middle'>"I want my daughter to see nature as a reflection of herself. So as she moves through this world she can better navigate the adversities of this life by recognizing the patterns and what comes next sunrise to sunset, season to season and all the cycles of the moon. That's natural."</p>
-          <footer class="blockquote-footer">Terrance</footer>
+          <p className='align-middle'>"It doesn't matter how we get there as long as we get there together.</p>
         </Col>
         <Col>
-          <Image src={Terrance}></Image>
+          <Image src={FatherOnBike}></Image>
         </Col>
       </Row>
       <Row>
-        <Col className='my-auto'>
-        <p className='align-middle'>"Marco and his daughter Tatiana were returning home from the bodega when I saw them. I was running late to pick up my son Marcus from after school care but there was something about the simultanouse strength and tenderness in which he held his child in hand that spoke to me and forced me to stop. I parked my car with haste and rallied back around the corner calling out "Family! Family!" to them even though we had never met before. Marco turned around with the cautious suspicion of a protective father</p>
-        </Col>
         <Col>
           <Image src={Marco}></Image>
+        </Col>
+        <Col className='my-auto'>
+        <p className='align-middle'>"Marco and his daughter Tatiana were returning home from the bodega when I saw them. I was running late to pick up my son Marcus from after school care but there was something about the simultanouse strength and tenderness in which he held his child in hand that spoke to me and forced me to stop. I parked my car with haste and rallied back around the corner calling out "Family! Family!" to them even though we had never met before. Marco turned around with the cautious suspicion of a protective father</p>
         </Col>
       </Row>
       <Row>
