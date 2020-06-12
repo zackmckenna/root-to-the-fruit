@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import useWindowDimensions from '../hooks/useWindowDimensions.js'
 
 import Damon from '../images/gallery/Damon.jpg'
 import Erik from '../images/gallery/Erik.jpg'
@@ -237,8 +236,6 @@ const uncroppedGallery = () => {
 }
 
 const GalleryPage = ({ data }) => {
-  const {height, width} = useWindowDimensions()
-
 
   return (
     <Layout>
