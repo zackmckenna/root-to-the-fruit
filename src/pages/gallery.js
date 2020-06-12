@@ -20,11 +20,11 @@ const GalleryPage = ({ data }) => (
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col className='col-sm'>
           <Image src={Damon}></Image>
         </Col>
-        <Col>
-          <p className='align-middle'>"To me, fatherhood is an everlasting imprint on people who are par of you and knowingly giving them a role model. It's one of the simple pleasures of life."</p>
+        <Col className='col-sm my-auto'>
+          <p className='align-middle'>"To me, fatherhood is an everlasting imprint on people who are part of you and knowingly giving them a role model. It's one of the simple pleasures of life."</p>
           <footer class="blockquote-footer">Damon</footer>
         </Col>
       </Row>
