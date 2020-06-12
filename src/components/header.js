@@ -13,6 +13,7 @@ const Header = () => (
           <Link style={{ padding: '10px', color: 'black'}} to='/'>Home</Link>
           <Link style={{ padding: '10px', color: 'black'}} to='/about/'>About</Link>
           <Link style={{ padding: '10px', color: 'black'}} to='/gallery/'>Gallery</Link>
+          <Link style={{ padding: '10px', color: 'black'}} to='/supporters/'>Supporters</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

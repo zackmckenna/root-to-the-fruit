@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
         <footer>
           <Row>
             <Col style={{ fontSize: '.5em'}} className='text-center'>
-              Copyright © {new Date().getFullYear()} copyright and footer text
+              Copyright © {new Date().getFullYear()} From the Root to the Fruit
             </Col>
           </Row>
         </footer>

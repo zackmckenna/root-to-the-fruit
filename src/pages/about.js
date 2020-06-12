@@ -32,11 +32,6 @@ const AboutPage = () => (
       </Row>
       <Row>
         <Col>
-
-        </Col>
-      </Row>
-      <Row>
-        <Col>
         <p>I am a West Philadelphia based documentary and portrait photographer focused on creating and presenting images and stories from the standpoint of Resident Observer, reflecting the local community as a member offering the outside world a view from within. My mission is to produce a documentary portrait of West Philadelphia - a record of our truth, our stories, our histories, our futures. Images that are both evidence and symbol of our existence in this space and time. I do not have the privilege of creating art for art’s sake.  For my community, I am an advocate for our presence, our resistance, our strength, our beauty, our right to thrive and our right to remain a community.
 My most recent bodies of work have focused primarily on the production of visual manifestations and audio histories of Philadelphians as means of documentation for future generations.The intent of the work is to amplify the stories and images of the individual and community to preserve collective memory while encouraging future generations to realize, remember and re-examine the individual and collective image.</p>
         </Col>
