@@ -249,7 +249,7 @@ const GalleryPage = ({ data }) => {
             <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>Gallery</h1>
           </Col>
         </Row>
-        {width <= 700 ? mobileGallery() : desktopGallery()}
+        {desktopGallery()}
       </Container>
     </Layout>
   )
