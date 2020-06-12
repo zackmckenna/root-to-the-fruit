@@ -48,41 +48,52 @@ const SupportersPage = () => (
       <Row>
         <Col className='mt-3'>
           <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>Supporters</h1>
+          <p>A huge thanks to our sponsors below for their support:</p>
         </Col>
       </Row>
       <Row>
         <Col>
-          <h3><a href="https://www.barnesfoundation.org/">The Barnes Foundation</a></h3>
+          <h4><a target="_blank" href="https://www.barnesfoundation.org/">The Barnes Foundation</a></h4>
         </Col>
       </Row>
       <Row>
         <Col>
-          <h3><a href="https://www.pec-cares.org/">People's Emergency Center</a></h3>
+          <h4><a target="_blank" href="https://www.pec-cares.org/">People's Emergency Center</a></h4>
         </Col>
       </Row>
       <Row>
         <Col>
-          <h3><a href="https://mantuacivicassociation.wordpress.com/about/">Mantua Civic Association</a></h3>
+          <h4><a target="_blank" href="https://mantuacivicassociation.wordpress.com/about/">Mantua Civic Association</a></h4>
         </Col>
       </Row>
       <Row>
         <Col>
-          <h3><a href="https://www.worldstage.com/">WorldStage</a></h3>
+          <h4><a target="_blank" href="https://www.worldstage.com/">WorldStage</a></h4>
         </Col>
       </Row>
       <Row>
         <Col>
-          <h3><a href="http://www.shakespeareinclarkpark.org/">Shakespeare in Clark Park</a></h3>
+          <h4><a target="_blank" href="http://www.shakespeareinclarkpark.org/">Shakespeare in Clark Park</a></h4>
         </Col>
       </Row>
       <Row>
         <Col>
-          <h3><a href="https://ninehostagearts.com/">Nine Hostage Arts</a></h3>
+          <h4><a target="_blank" href="https://ninehostagearts.com/">Nine Hostage Arts</a></h4>
+        </Col>
+      </Row>
+      <Row>
+        <Col >
+          <h4><a target="_blank" href="https://www.operaphila.org/">Opera Philadelphia</a></h4>
+        </Col>
+      </Row>
+      <Row>
+        <Col className='mt-3'>
+          <h4>Other facilitators of this installation include:</h4>
         </Col>
       </Row>
       <Row>
         <Col>
-          <h3><a href="https://www.operaphila.org/">Opera Philadelphia</a></h3>
+          <p>Derrick Pratt, De'Wayne Drummond, Dante Leonard, Robert Kaplowitz and Jeff Sugg. </p>
         </Col>
       </Row>
     </Container>
