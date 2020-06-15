@@ -115,6 +115,7 @@ const SupportersPage = () => (
         <Col>
           <h4><a target="_blank" href="https://www.peopleslight.org/">Peoples Light and Theatre Company</a></h4>
         </Col>
+      </Row>
       <Row>
         <Col>
           <h5>website by <a target="_blank" href="https://www.zackmckenna.com">zackmckenna</a></h5>
