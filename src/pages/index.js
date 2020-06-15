@@ -24,41 +24,14 @@ const IndexPage = () => {
     setToggle(!toggle)
   }
 
-  const accordion = () => {
-    return (
-      <Accordion defaultActiveKey="0">
-          <Card>
-            <Card.Header>
-              <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                What
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="0">
-              <Card.Body>In "From the Root to the Fruit: Portraits of Black Fathers and their Children" Ken McFarlane presents an ongoing documentary project that celebrates Black fatherhood while counteracting the false narrative of the absentee Black Father.  Originally presented by Traction Company on 41st Street and Haverford in Mantua and curated by Traction artist Sedakial Gebremedhin, this is a second public phase of this ongoing work.  Ken’s brilliant vision and images will be on display for two nights on the exterior walls of the Barnes Foundation, offering a shining counterpunch to a 400 year old system that has poisoned the image of Black Fatherhood in America.</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Card.Header>
-              <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                Where
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="1">
-              <Card.Body>The Benjamin Franklin Parkway, at the Barnes Foundation, on the corner of 20th street</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-        </Accordion>
-    )
-  }
-
   return (
     <Layout>
       <SEO title="Home" />
       <Container>
         <Row>
           <Col className='mt-3 text-center'>
-              <h1 style={{ fontSize: '8vmin', fontWeight: '400', fontFamily: 'Alfa Slab One'}}>From the Root to the Fruit</h1>
-              <p className='mt-0'>Portraits of Black Fathers and their Children by Ken McFarlane</p>
+              <h2 style={{ fontSize: '8vmin', fontWeight: '400', fontFamily: 'Alfa Slab One'}}>From the Root to the Fruit: Portraits of Black Fathers and their Children</h2>
+              <p className='mt-0'>by Ken McFarlane</p>
           </Col>
         </Row>
         <Row>
@@ -71,7 +44,7 @@ const IndexPage = () => {
           {toggle ? accordion() : null} */}
         <Row>
           <Col>
-            <p>In <em>"From the Root to the Fruit: Portraits of Black Fathers and their Children"</em> <a target="_blank" style={{ textDecoration: 'none', color:'#CB6137'}} href="https://www.kenmcfarlanephoto.com/">Ken McFarlane</a> presents an ongoing documentary project that celebrates Black fatherhood while counteracting the false narrative of the absentee Black Father.  Originally presented by <a target="_blank" style={{ textDecoration: 'none', color:'#CB6137'}} href="https://tractioncompany.com/">Traction Company</a> on 41st Street and Haverford in Mantua and curated by Traction artist Sedakial Gebremedhin, this is a second public phase of this ongoing work.  Ken’s brilliant vision and images will be on display for two nights on the exterior walls of the Barnes Foundation, offering a shining counterpunch to a 400 year old system that has poisoned the image of Black Fatherhood in America.</p>
+            <p>In <em>"From the Root to the Fruit: Portraits of Black Fathers and their Children"</em> <a target="_blank" style={{ textDecoration: 'none', color:'#CB6137'}} href="https://www.kenmcfarlanephoto.com/">Ken McFarlane</a> presents an ongoing documentary project that celebrates Black fatherhood while deconstructing the false narrative of the absentee Black Father.  Originally presented by <a target="_blank" style={{ textDecoration: 'none', color:'#CB6137'}} href="https://tractioncompany.com/">Traction Company</a> on 41st Street and Haverford in Mantua and curated by Traction artist Sedakial Gebremedhin, this is a second public phase of this ongoing work.  Ken’s brilliant vision and images will be on display for two nights on the exterior walls of the Barnes Foundation, offering a shining counterpunch to a 400 year old system that has poisoned the image of Black Fatherhood in America.</p>
           </Col>
         </Row>
         <Row className='mt-2'>

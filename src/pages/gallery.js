@@ -206,12 +206,7 @@ const desktopGallery = () => {
           <Image src={Marco}></Image>
         </Col>
         <Col className='my-auto'>
-        <p className='align-middle'>"Marco and his daughter Tatiana were returning home from the bodega when I saw them. I was running late to pick up my son Marcus from after school care but there was something about the simultanouse strength and tenderness in which he held his child in hand that spoke to me and forced me to stop. I parked my car with haste and rallied back around the corner calling out "Family! Family!" to them even though we had never met before. Marco turned around with the cautious suspicion of a protective father</p>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <p>and sized me up as I asked to photograph them. I watched him fixing his lips to say no after all I wasn't armed with a stack of business cards or a fancy camera, I just had my iPhone and my word. Before the no could pas his teeth I said "Look fam, to hear them tell it you would think are no Black fathers in the inner city. It's like to them we don't exist. They would have you believe that we're imaginary beings like unicors, but from I leave my house until I come back in I see fat her's with theird children just like I see you now." MArco weighted my words on the scale of his mind and looked down at Tatiana and held her that much tighter as he agreed to let me make this photograph."  <footer class="mt-2 blockquote-footer">Ken McFarlane</footer></p>
+        <p className='align-middle'>Marco and his daughter Tatiana</p>
         </Col>
       </Row>
     </>

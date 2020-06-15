@@ -12,6 +12,7 @@ const Header = () => (
         <Nav className="mr-auto">
           <Link style={{ padding: '10px', color: 'black'}} to='/'>Home</Link>
           <Link style={{ padding: '10px', color: 'black'}} to='/about/'>About</Link>
+          <Link style={{ padding: '10px', color: 'black'}} to='/the_artist/'>The Artist</Link>
           <Link style={{ padding: '10px', color: 'black'}} to='/gallery/'>Gallery</Link>
           <Link style={{ padding: '10px', color: 'black'}} to='/supporters/'>Supporters</Link>
         </Nav>
