@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import { Card, Container, Row, Col, ListGroup, Button, Accordion } from 'react-bootstrap'
+import { Card, Container, Row, Col, ListGroup, Button, Image } from 'react-bootstrap'
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import barnes from '../images/index.jpg'
 import SEO from "../components/seo"
 
 import {
@@ -36,7 +36,7 @@ const IndexPage = () => {
         </Row>
         <Row>
           <Col className='text-center'>
-            <Image/>
+            <Image src={barnes} />
             <p><em>example rendering</em></p>
           </Col>
         </Row>
