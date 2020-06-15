@@ -47,8 +47,17 @@ const SupportersPage = () => (
     <Container style={{ maxWidth: '650px', lineHeight: '1.6'}}>
       <Row>
         <Col className='mt-3'>
-          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>Supporters</h1>
-          <p>A huge thanks to our sponsors below for their support:</p>
+          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>Partners and Supporters</h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <h2>Partners</h2>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <h4>We Embrace Fatherhood</h4>
         </Col>
       </Row>
       <Row>
@@ -56,14 +65,25 @@ const SupportersPage = () => (
           <h4><a target="_blank" href="https://www.barnesfoundation.org/">The Barnes Foundation</a></h4>
         </Col>
       </Row>
+
       <Row>
         <Col>
-          <h4><a target="_blank" href="https://www.pec-cares.org/">People's Emergency Center</a></h4>
+          <h4><a target="_blank" href="https://mantuacivicassociation.wordpress.com/about/">Mantua Civic Association</a></h4>
         </Col>
       </Row>
       <Row>
         <Col>
-          <h4><a target="_blank" href="https://mantuacivicassociation.wordpress.com/about/">Mantua Civic Association</a></h4>
+          <h4><a target="_blank" href="http://pcradiolive.com/">PC Radio Live</a></h4>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <h2>Supporters</h2>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <h4><a target="_blank" href="https://www.pec-cares.org/">People's Emergency Center</a></h4>
         </Col>
       </Row>
       <Row>
@@ -87,13 +107,13 @@ const SupportersPage = () => (
         </Col>
       </Row>
       <Row>
-        <Col className='mt-3'>
-          <h4>Other facilitators of this installation include:</h4>
+        <Col >
+          <h4><a target="_blank" href="http://www.frontlinedads.org/">Front Line Dads</a></h4>
         </Col>
       </Row>
       <Row>
         <Col>
-          <p>Derrick Pratt, De'Wayne Drummond, Dante Leonard, Robert Kaplowitz and Jeff Sugg. </p>
+          <h5>website by <a target="_blank" href="https://www.zackmckenna.com">zackmckenna</a></h5>
         </Col>
       </Row>
     </Container>
