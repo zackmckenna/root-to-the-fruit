@@ -5,6 +5,7 @@ import { Card, Container, Row, Col, ListGroup, Button, Image } from 'react-boots
 import Layout from "../components/layout"
 import barnes from '../images/index.jpg'
 import SEO from "../components/seo"
+import './index.css'
 
 import {
   FacebookShareButton,
@@ -56,14 +57,14 @@ const IndexPage = () => {
         </Row>
         <Row>
           <Col>
-          <ListGroup>
-            <ListGroup.Item>Saturday, June 20th, 8pm - 11pm <Button className='float-right' href='https://calendar.google.com/event?action=TEMPLATE&tmeid=NzQzMzliMWo0cGE3ZDE4bWhhbnNkaGIzcXIgZG9tYWxyMGhidHJrZnRibzFoNzI1YmoyY2NAZw&tmsrc=domalr0hbtrkftbo1h725bj2cc%40group.calendar.google.com' >
-              Add to calendar
-            </Button></ListGroup.Item>
-            <ListGroup.Item>Sunday, June 21st, 8pm-11pm <Button className='float-right' href='https://calendar.google.com/event?action=TEMPLATE&tmeid=Mmx0ZzRzMGtyMjluMjBhZmwxN282MXIyMmggZG9tYWxyMGhidHJrZnRibzFoNzI1YmoyY2NAZw&tmsrc=domalr0hbtrkftbo1h725bj2cc%40group.calendar.google.com' >
-              Add to calendar
-            </Button></ListGroup.Item>
-          </ListGroup>
+            <ListGroup >
+              <ListGroup.Item>Saturday, June 20th, 8pm - 11pm <Button className='calendar_button float-right' href='https://calendar.google.com/event?action=TEMPLATE&tmeid=NzQzMzliMWo0cGE3ZDE4bWhhbnNkaGIzcXIgZG9tYWxyMGhidHJrZnRibzFoNzI1YmoyY2NAZw&tmsrc=domalr0hbtrkftbo1h725bj2cc%40group.calendar.google.com' >
+                Add to calendar
+              </Button></ListGroup.Item>
+              <ListGroup.Item>Sunday, June 21st, 8pm-11pm <Button className='calendar_button float-right' href='https://calendar.google.com/event?action=TEMPLATE&tmeid=Mmx0ZzRzMGtyMjluMjBhZmwxN282MXIyMmggZG9tYWxyMGhidHJrZnRibzFoNzI1YmoyY2NAZw&tmsrc=domalr0hbtrkftbo1h725bj2cc%40group.calendar.google.com' >
+                Add to calendar
+              </Button></ListGroup.Item>
+            </ListGroup>
           </Col>
         </Row>
         <Row className='mt-3'>
@@ -76,10 +77,11 @@ const IndexPage = () => {
         <Row>
           <Col>
           <p>The Benjamin Franklin Parkway, at the Barnes Foundation, on the corner of 20th Street.</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.160945523261!2d-75.17528784905686!3d39.96015417931984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c634b159cf11%3A0x8e918cf2f2411980!2sBenjamin%20Franklin%20Pkwy%2C%20Philadelphia%2C%20PA%2019130!5e0!3m2!1sen!2sus!4v1591896908524!5m2!1sen!2sus" width="600" height="450" frameborder="0" style={{ border: '0px'}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <iframe className='desktop' style={{ maxWidth: '100%'}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.160945523261!2d-75.17528784905686!3d39.96015417931984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c634b159cf11%3A0x8e918cf2f2411980!2sBenjamin%20Franklin%20Pkwy%2C%20Philadelphia%2C%20PA%2019130!5e0!3m2!1sen!2sus!4v1591896908524!5m2!1sen!2sus" width="600" height="450" frameborder="0" style={{ border: '0px'}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <Button className='mobile'target="_blank" href="https://goo.gl/maps/1w4TeM6CK9qo9Z4d8">View on Map</Button>
           </Col>
         </Row>
-        <Row className='mt-2'>
+        <Row className='mt-3'>
           <Col>
           <h2>
             Share:

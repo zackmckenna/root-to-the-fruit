@@ -3,7 +3,8 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import Ken from '../images/Ken_about.jpg'
+import mca from '../images/supporters/mca.png'
+import pcRadio from '../images/supporters/pcRadio.jpeg'
 
 import {
   FacebookIcon,
