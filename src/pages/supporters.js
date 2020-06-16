@@ -28,7 +28,7 @@ const SupportersPage = () => (
           <a target="_blank" rel="noreferrer" href="https://mantuacivicassociation.wordpress.com/about/"><Image  className='logo' src={mca}></Image></a>
         </Col>
       </Row>
-      <Row className='justify-content-md-center'>
+      <Row>
         <Col sm sm={4}>
           <a target="_blank" rel="noreferrer" href="http://pcradiolive.com/"><Image src={pcRadio}></Image></a>
         </Col>
