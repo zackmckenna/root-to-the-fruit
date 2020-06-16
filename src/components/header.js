@@ -14,7 +14,7 @@ const Header = () => (
           <Link style={{ padding: '10px', color: 'black'}} to='/about/'>About</Link>
           <Link style={{ padding: '10px', color: 'black'}} to='/the_artist/'>The Artist</Link>
           <Link style={{ padding: '10px', color: 'black'}} to='/gallery/'>Gallery</Link>
-          <Link style={{ padding: '10px', color: 'black'}} to='/supporters/'>Supporters</Link>
+          <Link style={{ padding: '10px', color: 'black'}} to='/supporters/'>Partners and Supporters</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
