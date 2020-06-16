@@ -5,6 +5,8 @@ import SEO from "../components/seo"
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import mca from '../images/supporters/mca.png'
 import pcRadio from '../images/supporters/pcRadio.jpeg'
+import barnesLogo from '../images/supporters/barnesLogo.png'
+import PEC_Logo from '../images/supporters/PEC_Logo.png'
 
 import {
   FacebookIcon,
@@ -57,24 +59,22 @@ const SupportersPage = () => (
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col className='text-center'>
           <h4>We Embrace Fatherhood</h4>
         </Col>
-      </Row>
-      <Row>
         <Col>
-          <h4><a target="_blank" href="https://www.barnesfoundation.org/">The Barnes Foundation</a></h4>
+          <a target="_blank" href="https://www.barnesfoundation.org/"><Image src={barnesLogo}></Image></a>
         </Col>
-      </Row>
-
-      <Row>
         <Col>
-          <h4><a target="_blank" href="https://mantuacivicassociation.wordpress.com/about/">Mantua Civic Association</a></h4>
+          <a target="_blank" href="https://mantuacivicassociation.wordpress.com/about/"></a>
         </Col>
       </Row>
       <Row>
         <Col>
-          <h4><a target="_blank" href="http://pcradiolive.com/">PC Radio Live</a></h4>
+          <a target="_blank" href="https://mantuacivicassociation.wordpress.com/about/"><Image style={{maxWidth: '180px'}} src={mca}></Image></a>
+        </Col>
+        <Col>
+          <a target="_blank" href="http://pcradiolive.com/"><Image style={{maxWidth: '180px'}} src={pcRadio}></Image></a>
         </Col>
       </Row>
       <Row>
@@ -85,6 +85,11 @@ const SupportersPage = () => (
       <Row>
         <Col>
           <h4><a target="_blank" href="https://www.pec-cares.org/">People's Emergency Center</a></h4>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Image src={PEC_Logo}></Image>
         </Col>
       </Row>
       <Row>
