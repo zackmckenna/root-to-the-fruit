@@ -34,6 +34,11 @@ const AboutPage = () => (
         </Col>
       </Row>
       <Row>
+        <Col>
+          <a rel="noreferrer" href="https://www.barnesfoundation.org/whats-on/free/ken-mcfarlane-installation#">View the Barnes Event</a>
+        </Col>
+      </Row>
+      <Row>
         <Col className='mt-3'>
           <p>Philadelphia PA, June 16, 2020: As a part of the Black Lives Matter movement for eradicating systematic racial injustice and in response to the COVID-19 health crisis which has dramatically decreased public access to the arts, We Embrace Fatherhood, a coalition of West Philadelphia fathers, activists and artists, formed with a mission to publicly celebrate Black Lives and Black Fatherhood.</p>
         </Col>
