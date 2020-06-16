@@ -50,36 +50,28 @@ const SupportersPage = () => (
     <Container style={{ maxWidth: '650px', lineHeight: '1.6'}}>
       <Row>
         <Col className='mt-3'>
-          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>Partners and Supporters</h1>
+          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>Partners</h1>
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <h2>Partners</h2>
-        </Col>
-      </Row>
-      <Row>
-        <Col className='text-center'>
+      <Row className='justify-content-md-center'>
+        <Col className='text-center' sm md={3}>
           <h4>We Embrace Fatherhood</h4>
         </Col>
-        <Col>
+        <Col sm md={4}>
           <a target="_blank" href="https://www.barnesfoundation.org/"><Image src={barnesLogo}></Image></a>
         </Col>
-        <Col>
-          <a target="_blank" href="https://mantuacivicassociation.wordpress.com/about/"></a>
+        <Col sm md={4}>
+          <a target="_blank" href="https://mantuacivicassociation.wordpress.com/about/"><Image src={mca}></Image></a>
+        </Col>
+      </Row>
+      <Row className='justify-content-md-center'>
+        <Col sm sm={4}>
+          <a target="_blank" href="http://pcradiolive.com/"><Image src={pcRadio}></Image></a>
         </Col>
       </Row>
       <Row>
-        <Col>
-          <a target="_blank" href="https://mantuacivicassociation.wordpress.com/about/"><Image style={{maxWidth: '180px'}} src={mca}></Image></a>
-        </Col>
-        <Col>
-          <a target="_blank" href="http://pcradiolive.com/"><Image style={{maxWidth: '180px'}} src={pcRadio}></Image></a>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <h2>Supporters</h2>
+        <Col className='mt-3'>
+          <h1 style={{ fontFamily: 'Alfa Slab One', fontWeight: '400' }}>Supporters</h1>
         </Col>
       </Row>
       <Row>

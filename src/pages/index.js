@@ -78,7 +78,7 @@ const IndexPage = () => {
           <Col>
           <p>The Benjamin Franklin Parkway, at the Barnes Foundation, on the corner of 20th Street.</p>
           <iframe className='desktop' style={{ maxWidth: '100%'}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.160945523261!2d-75.17528784905686!3d39.96015417931984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c634b159cf11%3A0x8e918cf2f2411980!2sBenjamin%20Franklin%20Pkwy%2C%20Philadelphia%2C%20PA%2019130!5e0!3m2!1sen!2sus!4v1591896908524!5m2!1sen!2sus" width="600" height="450" frameborder="0" style={{ border: '0px'}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          <Button className='mobile'target="_blank" href="https://goo.gl/maps/1w4TeM6CK9qo9Z4d8">View on Map</Button>
+          <Button className='mobile' target="_blank" href="https://goo.gl/maps/1w4TeM6CK9qo9Z4d8">View on Map</Button>
           </Col>
         </Row>
         <Row className='mt-3'>
