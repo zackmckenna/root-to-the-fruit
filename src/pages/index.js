@@ -49,7 +49,7 @@ const IndexPage = () => {
         </Row>
         <Row>
           <Col>
-            <p>View the event at <a target="_blank" rel="noreferrer" href="https://www.barnesfoundation.org/whats-on/free/ken-mcfarlane-installation">barnesfoundation.org.</a></p>
+            <p>View the event at <a target="_blank" rel="noreferrer" href="https://www.barnesfoundation.org/whats-on/free/ken-mcfarlane-installation">barnesfoundation.org</a></p>
           </Col>
         </Row>
         <Row className='mt-2'>
