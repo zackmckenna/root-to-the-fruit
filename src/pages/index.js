@@ -38,7 +38,6 @@ const IndexPage = () => {
         <Row>
           <Col className='text-center'>
             <Image src={barnes} />
-            <p><em>example rendering</em></p>
           </Col>
         </Row>
           {/* <Button onClick={() => toggleButton()}>{toggle ? 'v1' : 'v2'}</Button>
@@ -58,7 +57,7 @@ const IndexPage = () => {
         <Row>
           <Col>
             <ListGroup >
-              <ListGroup.Item>Saturday, June 20th, 8pm - 11pm <Button className='calendar_button float-right' href='https://calendar.google.com/event?action=TEMPLATE&tmeid=NzQzMzliMWo0cGE3ZDE4bWhhbnNkaGIzcXIgZG9tYWxyMGhidHJrZnRibzFoNzI1YmoyY2NAZw&tmsrc=domalr0hbtrkftbo1h725bj2cc%40group.calendar.google.com' >
+              <ListGroup.Item>Saturday, June 20th, 8pm - 11pm<Button className='calendar_button float-right' href='https://calendar.google.com/event?action=TEMPLATE&tmeid=NzQzMzliMWo0cGE3ZDE4bWhhbnNkaGIzcXIgZG9tYWxyMGhidHJrZnRibzFoNzI1YmoyY2NAZw&tmsrc=domalr0hbtrkftbo1h725bj2cc%40group.calendar.google.com' >
                 Add to calendar
               </Button></ListGroup.Item>
               <ListGroup.Item>Sunday, June 21st, 8pm-11pm <Button className='calendar_button float-right' href='https://calendar.google.com/event?action=TEMPLATE&tmeid=Mmx0ZzRzMGtyMjluMjBhZmwxN282MXIyMmggZG9tYWxyMGhidHJrZnRibzFoNzI1YmoyY2NAZw&tmsrc=domalr0hbtrkftbo1h725bj2cc%40group.calendar.google.com' >
