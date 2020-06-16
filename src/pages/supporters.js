@@ -6,6 +6,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 import mca from '../images/supporters/mca.png'
 import pcRadio from '../images/supporters/pcRadio.jpeg'
 import barnesLogo from '../images/supporters/barnesLogo.png'
+import './supporters.css'
 
 const SupportersPage = () => (
   <Layout>
@@ -18,13 +19,13 @@ const SupportersPage = () => (
       </Row>
       <Row className='justify-content-md-center'>
         <Col className='text-center my-auto' sm md={3}>
-          <h4>We Embrace Fatherhood</h4>
+          <h4 className='logo'>We Embrace Fatherhood</h4>
         </Col>
         <Col sm md={4}>
-          <a target="_blank" rel="noreferrer" href="https://www.barnesfoundation.org/"><Image src={barnesLogo}></Image></a>
+          <a target="_blank" rel="noreferrer" href="https://www.barnesfoundation.org/"><Image className='logo' src={barnesLogo}></Image></a>
         </Col>
         <Col sm md={4}>
-          <a target="_blank" rel="noreferrer" href="https://mantuacivicassociation.wordpress.com/about/"><Image  src={mca}></Image></a>
+          <a target="_blank" rel="noreferrer" href="https://mantuacivicassociation.wordpress.com/about/"><Image  className='logo' src={mca}></Image></a>
         </Col>
       </Row>
       <Row className='justify-content-md-center'>
