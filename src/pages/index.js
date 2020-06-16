@@ -89,9 +89,9 @@ const IndexPage = () => {
         </Row>
         <Row className='text-center b-2'>
           <Col>
-            <FacebookShareButton style={{ margin: '5px'}} url={'https://epic-edison-27c463.netlify.app/'}><FacebookIcon size={'3em'} round={true}/></FacebookShareButton>
-            <TwitterShareButton style={{ margin: '5px'}} url={'https://epic-edison-27c463.netlify.app/'}><TwitterIcon size={'3em'} round={true}/></TwitterShareButton>
-            <EmailShareButton style={{ margin: '5px'}}  url={'https://epic-edison-27c463.netlify.app/'}><EmailIcon size={'3em'} round={true}/></EmailShareButton>
+            <FacebookShareButton style={{ margin: '5px'}} url={'http://www.fromtheroottothefruit.org/'}><FacebookIcon size={'3em'} round={true}/></FacebookShareButton>
+            <TwitterShareButton style={{ margin: '5px'}} url={'http://www.fromtheroottothefruit.org/'}><TwitterIcon size={'3em'} round={true}/></TwitterShareButton>
+            <EmailShareButton style={{ margin: '5px'}}  url={'http://www.fromtheroottothefruit.org/'}><EmailIcon size={'3em'} round={true}/></EmailShareButton>
           </Col>
         </Row>
         <Row>

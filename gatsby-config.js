@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `From the Root to the Fruit`,
+    description: `A public art installation by Ken McFarlane Projected on the façade of the Barnes Foundation`,
     author: `@gatsbyjs`,
   },
   plugins: [
