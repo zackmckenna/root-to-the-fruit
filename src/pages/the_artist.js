@@ -21,7 +21,7 @@ const AboutPage = () => (
       </Row>
       <Row>
         <Col>
-          <Image src={Ken} ></Image>
+          <Image alt="Ken McFarlane" src={Ken} ></Image>
         </Col>
       </Row>
       <Row>

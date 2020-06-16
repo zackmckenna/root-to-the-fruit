@@ -37,7 +37,7 @@ const IndexPage = () => {
         </Row>
         <Row>
           <Col className='text-center'>
-            <Image src={barnes} />
+            <Image alt="Projection of Erik and his son with text on the Barnes" src={barnes} />
           </Col>
         </Row>
           {/* <Button onClick={() => toggleButton()}>{toggle ? 'v1' : 'v2'}</Button>

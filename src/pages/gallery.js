@@ -22,7 +22,7 @@ const mobileGallery = () => {
     <>
       <Row>
         <Col>
-          <Image src={Damon}></Image>
+          <Image alt='Damon holding his daughter' src={Damon}></Image>
         </Col>
       </Row>
       <Row>
@@ -33,7 +33,7 @@ const mobileGallery = () => {
       </Row>
       <Row className='mt-3'>
         <Col>
-          <Image src={Erik}></Image>
+          <Image alt='Erik in a chair with his son standing next to him, underneath the the El train.' src={Erik}></Image>
         </Col>
       </Row>
       <Row>
@@ -44,7 +44,7 @@ const mobileGallery = () => {
       </Row>
       <Row className='mt-3'>
         <Col>
-          <Image src={JeanJacques}></Image>
+          <Image alt="Jean and his daughters"src={JeanJacques}></Image>
         </Col>
       </Row>
       <Row>
@@ -132,7 +132,7 @@ const desktopGallery = () => {
     <>
       <Row>
         <Col className='col-sm'>
-          <Image src={Damon}></Image>
+          <Image alt="Damon and his daughter" src={Damon}></Image>
         </Col>
         <Col className='col-sm my-auto'>
           <p className='align-middle'>"To me, fatherhood is an everlasting imprint on people who are part of you and knowingly giving them a role model. It's one of the simple pleasures of life."</p>
@@ -145,12 +145,12 @@ const desktopGallery = () => {
           <footer class="blockquote-footer">Erik</footer>
         </Col>
         <Col>
-          <Image src={Erik}></Image>
+          <Image alt="Erik and his son" src={Erik}></Image>
         </Col>
       </Row>
       <Row>
         <Col>
-          <Image src={JeanJacques}></Image>
+          <Image alt="Jean and his daughters" src={JeanJacques}></Image>
         </Col>
         <Col className='my-auto'>
         <p className='align-middle'>"I think of my role as a father as that of support to my two daughters being brilliant, beautiful, strong, and resilient. I can't support them without listening to them, without learning from them, learning to soften rough edges, while staying stable enough for them to lean on, and lift off from."</p>
@@ -163,12 +163,12 @@ const desktopGallery = () => {
           <footer class="blockquote-footer">Terrance</footer>
         </Col>
         <Col>
-          <Image src={Terrance}></Image>
+          <Image alt="Terrance and his daughter" src={Terrance}></Image>
         </Col>
       </Row>
       <Row>
         <Col>
-          <Image src={Ken}></Image>
+          <Image alt="Ken and his son" src={Ken}></Image>
         </Col>
         <Col className='my-auto'>
           <p className='align-middle'>"Pan-Africanism is my way of life. I have taught my son that regardless of the branch Africa is the root. We had a wonderful #blackpanthermovie weekend. I'm hoping he will see past the moment and embrace the movement."</p>
@@ -181,12 +181,12 @@ const desktopGallery = () => {
           <footer class="blockquote-footer">Rob</footer>
         </Col>
         <Col>
-          <Image src={Rob}></Image>
+          <Image alt="Rob and his son and daughter" src={Rob}></Image>
         </Col>
       </Row>
       <Row>
         <Col>
-          <Image src={Ogbonna}></Image>
+          <Image alt="Ogbonna and his son" src={Ogbonna}></Image>
         </Col>
         <Col className='my-auto'>
           <p className='align-middle'>"The most important investment to make is to spend time with your children."</p>
@@ -198,12 +198,12 @@ const desktopGallery = () => {
           <p className='align-middle'>"It doesn't matter how we get there as long as we get there together.</p>
         </Col>
         <Col>
-          <Image src={FatherOnBike}></Image>
+          <Image alt=" A father riding his bike, with his daughter riding on the pegs" src={FatherOnBike}></Image>
         </Col>
       </Row>
       <Row>
         <Col>
-          <Image src={Marco}></Image>
+          <Image alt="Marco and his daughter Tatiana" src={Marco}></Image>
         </Col>
         <Col className='my-auto'>
         <p className='align-middle'>Marco and his daughter Tatiana</p>
