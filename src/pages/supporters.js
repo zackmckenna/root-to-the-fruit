@@ -6,7 +6,6 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 import mca from '../images/supporters/mca.png'
 import pcRadio from '../images/supporters/pcRadio.jpeg'
 import barnesLogo from '../images/supporters/barnesLogo.png'
-import PEC_Logo from '../images/supporters/PEC_Logo.png'
 
 import {
   FacebookIcon,
@@ -54,7 +53,7 @@ const SupportersPage = () => (
         </Col>
       </Row>
       <Row className='justify-content-md-center'>
-        <Col className='text-center' sm md={3}>
+        <Col className='text-center my-auto' sm md={3}>
           <h4>We Embrace Fatherhood</h4>
         </Col>
         <Col sm md={4}>
@@ -77,11 +76,6 @@ const SupportersPage = () => (
       <Row>
         <Col>
           <h4><a target="_blank" href="https://www.pec-cares.org/">People's Emergency Center</a></h4>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <Image src={PEC_Logo}></Image>
         </Col>
       </Row>
       <Row>
