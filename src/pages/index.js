@@ -1,24 +1,11 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
-import { Card, Container, Row, Col, ListGroup, Button, Image } from 'react-bootstrap'
+import { Card, Container, Row, Col, Image } from 'react-bootstrap'
 
 import Layout from "../components/layout"
-import barnes from '../images/index.jpg'
 import standAgainst from '../images/standAgainst.jpeg'
 import wokeToVote from '../images/flyer_woke_to_vote.jpeg'
 import SEO from "../components/seo"
 import './index.css'
-
-import {
-  FacebookShareButton,
-  TwitterShareButton,
-  LinkedInShareButton,
-  EmailShareButton,
-  FacebookIcon,
-  TwitterIcon,
-  EmailIcon,
-  LinkedinIcon
-} from 'react-share'
 
 const IndexPage = () => {
   const [toggle, setToggle] = useState(true)

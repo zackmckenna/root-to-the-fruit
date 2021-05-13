@@ -9,22 +9,10 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Libre Baskerville`,
-            variants: [`400`, `700`]
-          },
-          {
-            family: 'Alfa Slab One',
-            variants: ['400']
-          },
-          {
-            family: `Roboto`,
-            subsets: [`latin`]
-          },
-          {
-            family: 'Helvetica',
-            variants: ['400', '800']
-          }
+          'Libre Baskerville\:400,700',
+          'Alfa Slab One\:400,700',
+          'Roboto',
+          'Helvetica\:400,800'
         ],
       },
     },
