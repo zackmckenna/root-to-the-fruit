@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
           {
@@ -21,6 +21,10 @@ module.exports = {
             family: `Roboto`,
             subsets: [`latin`]
           },
+          {
+            family: 'Helvetica',
+            variants: ['400', '800']
+          }
         ],
       },
     },
