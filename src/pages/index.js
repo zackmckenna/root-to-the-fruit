@@ -31,19 +31,6 @@ We Embrace Fatherhood is a collective committed to the intentional transformatio
             </p>
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <h3>Upcoming Events:</h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col className='text-center'>
-            <Image style={{ maxHeight: '500px'}} src={wokeToVote}/>
-          </Col>
-          <Col>
-            <Image src={standAgainst}/>
-          </Col>
-        </Row>
       </Container>
     </Layout>
   )
