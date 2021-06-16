@@ -47,7 +47,7 @@ const IndexPage = () => {
         </Row>
         <Row>
           <Col>
-            <h3>Recent Past Events:</h3>
+            <h3>Past Events:</h3>
           </Col>
         </Row>
         <Row>
