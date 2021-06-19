@@ -4,6 +4,9 @@ import { Card, Container, Row, Col, Image } from "react-bootstrap"
 import Layout from "../components/layout"
 import standAgainst from "../images/standAgainst.jpeg"
 import wokeToVote from "../images/flyer_woke_to_vote.jpeg"
+import silence from "../images/silence.jpeg"
+import closing from "../images/closing-exhibition.jpeg"
+import fathers from "../images/fathers_day.jpg"
 import SEO from "../components/seo"
 import "./index.css"
 
@@ -47,15 +50,18 @@ const IndexPage = () => {
         </Row>
         <Row>
           <Col>
-            <h3>Past Events:</h3>
+            <h3>Upcoming Events:</h3>
           </Col>
         </Row>
         <Row>
           <Col className="text-center">
-            <Image style={{ maxHeight: "500px" }} src={wokeToVote} />
+            <Image style={{ maxHeight: "500px" }} src={silence} />
           </Col>
           <Col>
-            <Image src={standAgainst} />
+            <Image src={fathers} />
+          </Col>
+          <Col>
+            <Image src={closing} />
           </Col>
         </Row>
       </Container>
